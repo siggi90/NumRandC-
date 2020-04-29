@@ -1,4 +1,4 @@
-# NumRandC-
+# NumRandC#
 NumRand generates random numbers from chaotic motion.
 
 NumRand generates random numbers as well as randomizing the order of lists. Each different initial position yields unique results.
