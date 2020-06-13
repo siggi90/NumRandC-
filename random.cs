@@ -146,7 +146,7 @@ namespace NumRand {
 		public double get_number() {
 			this.save_state(this.run_simulation(0));
 			double phase = this.cylinders[this.cylinders.Count-1].phase_offset;
-			double number = Math.Round(phase / 36);//this.n.divide(new double(phase, "0/1"), new double("36", "0/1")).value;
+			double number = Math.Floor(phase / 36);//this.n.divide(new double(phase, "0/1"), new double("36", "0/1")).value;
 			return number;
 		}
 
